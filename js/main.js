@@ -43,6 +43,59 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
 
     songs: [{
+            name: "Happy For You",
+            singer: "Lukas Graham feat Vũ",
+            path: "./music/Lukas Graham - Happy For You feat Vũ.mp3",
+            image: "./img/Capture1.jpg"
+        },
+        {
+            name: "Wicked Wonderland",
+            singer: "Martin Tungevaag",
+            path: "./music/Wicked Wonderland - Martin Tungevaag.mp3",
+            image: "./img/Capture2.jpg"
+        },
+        {
+            name: "Love Is Gone",
+            singer: "Slander ft Dylan Matthew",
+            path: "./music/Love Is Gone - Slander ft Dylan Matthew.mp3",
+            image: "./img/Capture3.png"
+        },
+        {
+            name: "What Lovers Do",
+            singer: "Maroon 5",
+            path: "./music/What Lovers Do - Maroon 5.mp3",
+            image: "./img/Capture4.jpg"
+        },
+        {
+            name: "Try",
+            singer: "P!nk",
+            path: "./music/Try - P!nk.mp3",
+            image: "./img/Capture5.jpg"
+        },
+        {
+            name: "Runaway",
+            singer: "Aurora",
+            path: "./music/Runaway - Aurora.mp3",
+            image: "./img/Capture6.jpg"
+        },
+        {
+            name: "I Want You To Know",
+            singer: "Zedd ft Selena Gomez",
+            path: "./music/I Want You To Know - Zedd ft Selena Gomez.mp3",
+            image: "./img/Capture7.png"
+        },
+        {
+            name: "Talking to the moon x Play Date",
+            singer: "Bruno Mars x Melanie Martinez",
+            path: "./music/Talking to the moon x Play Date.mp3",
+            image: "./img/Capture8.jpg"
+        },
+        {
+            name: "Safari",
+            singer: "Serena",
+            path: "./music/Safari - Serena.mp3",
+            image: "./img/Capture10.jpg"
+        }, {
             name: "Mood",
             singer: "24kGoldn ft Iann Dior",
             path: "./music/24kGoldn ft Iann Dior - Mood.mp3",
@@ -56,26 +109,26 @@ const app = {
         },
         {
             name: "The Nights",
-            singer: "Avicii",
-            path: "./music/Avicii - The Nights.mp3",
+            singer: "Avicii - Cover by Angie",
+            path: "./music/The Nights - Avicii Cover by Angie.mp3",
             image: "./img/Capture3.png"
         },
         {
             name: "Waiting For Love",
-            singer: "Avicii",
-            path: "./music/Avicii - Waiting For Love.mp3",
+            singer: "Avicii - Cover by Romy Wave",
+            path: "./music/Waiting For Love - Romy Wave.mp3",
             image: "./img/Capture4.jpg"
         },
         {
-            name: "My Heart Will Go On",
-            singer: "Celine Dion",
-            path: "./music/Celine Dion - My Heart Will Go On.mp3",
+            name: "Beggin",
+            singer: "Måneskin",
+            path: "./music/Beggin - Måneskin.mp3",
             image: "./img/Capture5.jpg"
         },
         {
             name: "I Really Like You",
-            singer: "Carly Rae Jepsen",
-            path: "./music/Carly Rae Jepsen - I Really Like You.mp3",
+            singer: "Carly Rae Jepsen - Cover by Celeina Ann",
+            path: "./music/Carly Rae Jepsen Cover by Celeina Ann Cover - I Really Like You.mp3",
             image: "./img/Capture6.jpg"
         },
         {
@@ -91,9 +144,9 @@ const app = {
             image: "./img/Capture8.jpg"
         },
         {
-            name: "A little love",
-            singer: "Fiona Fung",
-            path: "./music/Fiona Fung - A little love.mp3",
+            name: "Drivers License x Take Me To Church",
+            singer: "Olivia Rodrigo x Hozier",
+            path: "./music/Drivers License x Take Me To Church Lyrics.mp3",
             image: "./img/Capture9.jpg"
         },
         {
@@ -115,9 +168,9 @@ const app = {
             image: "./img/Capture12.jpg"
         },
         {
-            name: "Can't Take My Eyes Off You",
-            singer: "Joseph Vincent",
-            path: "./music/Joseph Vincent - LyricsVietsub Cant Take My Eyes Off You.mp3",
+            name: "Everything sucks",
+            singer: "Vaultboy",
+            path: "./music/everything sucks - vaultboy.mp3",
             image: "./img/Capture13.jpg"
         },
         {
@@ -127,9 +180,9 @@ const app = {
             image: "./img/Capture14.jpg"
         },
         {
-            name: "Take Me To Your Heart",
-            singer: "Michael",
-            path: "./music/Michael - Take Me To Your Heart.mp3",
+            name: "Floating",
+            singer: "Alina Baraz ft Khalid filous",
+            path: "./music/Floating - Alina Baraz ft Khalid  filous.mp3",
             image: "./img/Capture15.jpg"
         },
         {
@@ -151,9 +204,9 @@ const app = {
             image: "./img/Capture14.jpg"
         },
         {
-            name: "Beautiful In White",
-            singer: "Shane Filan",
-            path: "./music/Shane Filan - Beautiful In White.mp3",
+            name: "I love You",
+            singer: "Kevin Rater",
+            path: "./music/I love You - Kevin Rater.mp3",
             image: "./img/Capture3.png"
         },
         {
@@ -173,12 +226,6 @@ const app = {
             singer: "Stephanie Poetri",
             path: "./music/Stephanie Poetri - I Love You 3000.mp3",
             image: "./img/Capture6.jpg"
-        },
-        {
-            name: "My Love",
-            singer: "Westlife",
-            path: "./music/Westlife - My Love.mp3",
-            image: "./img/Capture7.png"
         }
     ],
 
